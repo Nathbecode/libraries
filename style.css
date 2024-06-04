@@ -1,0 +1,28 @@
+section {
+    height: 100vh;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+}
+
+section:nth-of-type(1) {
+    background-color: lightblue;
+
+}
+
+section:nth-of-type(2) {
+    background-color: lightgreen;
+}
+
+section:nth-of-type(3) {
+    background-color: lightcoral;
+    color: black;
+}
+
+section:nth-of-type(4) {
+    background-color: lightyellow;
+}
