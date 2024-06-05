@@ -5,6 +5,7 @@ const swiper = new Swiper('.swiper', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 
     // Navigation arrows
@@ -13,7 +14,7 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     slidesPerView: 3.5,
-    spaceBetween: 5,
-
+    spaceBetween: 2,
+    centeredSlides: true,
 });
 
