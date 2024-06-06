@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    min-height: 100%;
+}
+/* STYLE */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    margin: 0 auto;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1px;
+    min-height: 40%;
+    max-width: 40%;
+}
+
+.ima {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.lb-image {
+    width: auto !important;  
+    height: auto !important; 
+    max-width: 90vw !important; 
+    max-height: 90vh !important; 
+}
+
+.ima:hover {
+    width: 100.05%;
+    height: 100.05%;
+    border: 1px solid black;
+}
