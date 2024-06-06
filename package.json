@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "fslightbox": "^3.4.1"
+    "fslightbox": "^3.4.1",
+    "waypoints": "^4.0.1"
   }
 }
