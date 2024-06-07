@@ -1,20 +1,19 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
+const swiper = new Swiper('.mySwiper', {
     loop: true,
-
-    // If we need pagination
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    slidesPerView: 3.5,
-    spaceBetween: 2,
+    initialSlide: 0,
+    slidesPerView: 1,
     centeredSlides: true,
 });
+
+    const images = document.querySelectorAll('.grid .imag img');
+    images.forEach((img, index) => {
+    img.addEventListener('click', () => {
+        swiper.slideTo(index); 
+    });
+});
+
 
